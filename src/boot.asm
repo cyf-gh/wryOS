@@ -1,6 +1,6 @@
 ;------------------------------------------------------------
 ; 	@authoer: cyf
-;	@date: 2020.2.7	
+;	@date: 2020.2.7
 ;	@brief Read 10 cylinders to memory
 ;------------------------------------------------------------
 
@@ -14,7 +14,7 @@ _c_enter 	equ 0ah
 	jmp _ENTRY
 	nop
 
-%include	"./src/inc/fat12hdr.inc"	
+%include	"./src/inc/fat12hdr.inc"
 
 _ENTRY:
 
